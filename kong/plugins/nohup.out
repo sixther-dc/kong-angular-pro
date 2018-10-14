@@ -1,0 +1,5 @@
+Connecting to Kong on http://127.0.0.1:8001 ...
+Connected to Kong on http://127.0.0.1:8001.
+Kong version is 0.13.1
+Starting Kong Dashboard on port 8080
+Kong Dashboard has started on port 8080

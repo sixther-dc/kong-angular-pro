@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Sample Project</title>
+    <!-- data-main attribute tells require.js to load
+         scripts/main.js after require.js loads. -->
+    <script data-main="main.js" src="lib/require.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="TextController">
+    <h1>My Sample Project</h1>
+    <!-- <input ng-model="greeting.text"> -->
+    <p>{{greeting}}</p>
+</body>
+</html>
+<script>
+    window.hero = "{{six.test}}";
+    /**
+    var myAppModule = angular.module("myApp", []);
+    myAppModule.controller("TextController", function($scope) {
+        $scope.greeting = "sixther";
+    })
+    **/
+</script>
