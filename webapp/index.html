@@ -10,6 +10,13 @@
     <h1>My Sample Project</h1>
     <!-- <input ng-model="greeting.text"> -->
     <p>{{greeting}}</p>
+    <p ng-bind="greeting"></p>
+
+    <form ng-submit="requestFunding">
+        <div>Starting: <input ng-model="startingValue"></div>
+        <div>Result: {{needed}}</div>
+        <div><button>Go</button></div>
+    </form>
 </body>
 </html>
 <script>

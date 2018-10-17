@@ -13,5 +13,10 @@ require.config({
 require(["app"], function(app) {
     app.controller("TextController", function($scope) {
         $scope.greeting = "sixther";
+        $scope.startingValue = 1;
+        computeNeeded = function () {
+            $scope.needed = $scope.startingValue * 10
+        };
+        $scope.$watch('startingValue', computeNeeded);
     })
 });
